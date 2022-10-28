@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="notice">
+        <h3>Apologies ! , i learnt about the linking late . <a href="https://replit.com/@TimmySpark/Registration-Form?v=1">Click here</a> to view my code </h3>
+      </div>
+      <nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="sgnup">Sign Up</div>
+      <form action="login.html" method="post">
+        <label for="firstname"> First Name </label>
+        <input type="text" name="Firstname" id="firstname" placeholder="Enter Firstname" required autofocus />
+        <label for="lastname">Last Name </label>
+        <input type="text" name="lastname" id="lastname" placeholder="Enter Lastname" required />
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" placeholder="Enter email" required />
+        <label for="pass">Password </label>
+        <input type="password" name="password" id="pass" placeholder="Enter password" required />
+        <label id="gender">Gender</label>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <div class="flex-box">
+          <div class="box">
+            <label for="date">Date of Birth</label>
+            <input type="date" name="male" id="date" required />
+          </div>
+          <div class="box"><label for="bestcolor">Best color </label>
+            <input type="color" name="bestcolor" id="bestcolor" required />
+          </div>
+        </div>
+
+        <label for="phone_no">Phone Number </label>
+        <input type="number" name="phone_no" id="phone_no" placeholder="Enter Phone no" required />
+
+        <input type="submit" value="Sign Up" />
+
+      </form>
+      <div class="footer-link">
+        <span>Already have an account? <a href="login.html">Log In </a></span>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
