@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Poppins&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family:"Poppins",sans-serif;
+}
+
+main{
+  padding: 35px;
+  background-color:#31313f;
+  background-size:cover;
+  object-fit:cover;
+  min-height:100vh;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  margin:0 auto;
+  padding:5px 10px;
+  align-items:center;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+.thank-you-img-div{
+  margin:0 auto;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  align-content: center;
+}
+.thank-you-img{
+  width:50%;
+  height:50%;
+  margin:10px auto;
+  object-fit:contain;
+  background-size:cover;
+  background-position:center;
+}
+
+.thanks-message{
+  text-align:center
+}
+h2{
+  font-weight:400;
+  font-size:17px;
+}
+
+.thanks-message > p{
+  font-size:15px;
+  width:100%;
+}
+
+.back-to-home{
+  color:#feb400;
+  font-size:14px;
+  text-align:center;
+  padding:8px 16px;
+}
+.back-to-home:hover{
+  color:#a64bf4;
+}
